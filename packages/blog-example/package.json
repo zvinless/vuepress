@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "blog-example",
+  "version": "1.0.0",
+  "description": "blog example for vuepress",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev source --temp .temp",
+    "build": "vuepress build source --temp .temp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vuepress.git"
+  },
+  "keywords": [
+    "documentation",
+    "vue",
+    "vuepress",
+    "generator"
+  ],
+  "devDependencies": {
+    "vuepress": "^1.0.0",
+    "@vuepress/theme-blog-example": "^1.0.0",
+    "scifi": "^0.1.4"
+  },
+  "author": "Evan You",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuejs/vuepress/issues"
+  },
+  "homepage": "https://github.com/vuejs/vuepress/packages/@vuepress/theme-blog-example#readme"
+}
