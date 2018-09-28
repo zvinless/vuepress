@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "@vuepress/example-no-markdown",
+  "version": "1.0.0-alpha.1",
+  "description": "vuepress example of not using markdown",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev src --temp .temp",
+    "build": "vuepress build src --temp .temp"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "vuepress": "^1.0.0-alpha.1"
+  }
+}

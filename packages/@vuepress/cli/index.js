@@ -28,7 +28,9 @@ const program = require('commander')
 exports.program = program
 exports.bootstrap = function ({
   plugins,
-  theme
+  theme,
+  beforeBootStrap,
+  afterBootStrap
 } = {}) {
   const path = require('path')
   const { dev, build, eject } = require('@vuepress/core')
